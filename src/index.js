@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
     
     const description = createElementUtil('p', {
         className: 'description',
-        textContent: 'This is just a project to try github feature before using them in real one and break it.',
+        textContent: 'This project is just a test to try git and/or github features before using them in real projects and break them.',
     });
 
     document.body.append(
