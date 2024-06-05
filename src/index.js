@@ -6,7 +6,15 @@ window.addEventListener('load', () => {
         id: 'page-title',
         textContent: 'Trying github features',
     });
+    
+    const description = createElementUtil('p', {
+        className: 'description',
+        textContent: 'This is just a project to try github feature before using them in real one and break it.',
+    });
 
-    document.body.append(title);
+    document.body.append(
+        title,
+        description,
+    );
 });
 
